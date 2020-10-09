@@ -5,15 +5,15 @@
  */
 package backendxpto20202.controle;
 
+import backendxpto20202.modelo.bean.Pessoa;
+import backendxpto20202.modelo.dao.DaoPessoa;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import backendxpto20202.modelo.bean.Pessoa;
-import backendxpto20202.modelo.dao.DaoPessoa;
 
 /**
  *
- * @author ProfAlexandre
+ * @author Hideki
  */
 public class ControlePessoa {
 

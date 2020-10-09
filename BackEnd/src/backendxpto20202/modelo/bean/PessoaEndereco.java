@@ -8,11 +8,8 @@ package backendxpto20202.modelo.bean;
 /**
  *
  * @author Hideki
- * 
+ *
  */
-
-
-
 public class PessoaEndereco {
 
     private int id;
@@ -30,7 +27,6 @@ public class PessoaEndereco {
         this.obs = obs;
     }
 
-    
     public PessoaEndereco(int id, int idE, int idP, String obs) {
         this.id = id;
         this.idE = idE;
@@ -95,4 +91,15 @@ public class PessoaEndereco {
         return pes;
     }
 
+    @Override
+    public String toString() {
+        return "PessoaEndereco{" + "id="
+                + id + ", idE="
+                + idE + ", idP="
+                + idP + ", obs="
+                + obs + ", End="
+                + end.getCep() + ", pes="
+                + pes.getNome() + "}";
+
+    }
 }
