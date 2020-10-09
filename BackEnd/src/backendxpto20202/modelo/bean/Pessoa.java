@@ -1,0 +1,82 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package backendxpto20202.modelo.bean;
+
+/**
+ *
+ * @author ProfAlexandre
+ */
+public class Pessoa {
+    
+    private int id;
+    private String nome;
+    private String cpf;
+    private String tipo;
+    private String email;
+
+    public Pessoa(int id) {
+        this.id = id;
+    }
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
+    public Pessoa(int id, String nome, String cpf, String tipo, String email) {
+        this.id = id;
+        this.nome = nome;
+        this.cpf = cpf;
+        this.tipo = tipo;
+        this.email = email;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" + "id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", tipo=" + tipo + ", email=" + email + '}';
+    }
+    
+    
+}
